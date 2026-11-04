@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o responsável pelo site Universo dos Gêneros Musicais.">
+    <title>Contato — Universo dos Gêneros Musicais</title>
+</head>
+<body>
+
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <p><strong>Universo dos Gêneros Musicais</strong></p>
+        <p>Entre em contato conosco.</p>
+    </header>
+
+    <nav aria-label="Navegação principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="dados.html">Dados</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="conteudo">
+        <h1>Entre em contato</h1>
+
+        <section>
+            <h2>Informações de contato</h2>
+
+            <address>
+                Universo dos Gêneros Musicais<br>
+                Rua da Música, 100 — Centro<br>
+                Joinville — SC<br>
+                E-mail: <a href="mailto:contato@generosmusicais.example">contato@generosmusicais.example</a><br>
+                Telefone: <a href="tel:+554730001234">(47) 3000-1234</a>
+            </address>
+
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Centro%2C+Joinville%2C+SC" target="_blank" rel="noopener noreferrer">Consultar mapa da região central de Joinville</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Horário de atendimento</h2>
+
+            <dl>
+                <dt>Segunda a sexta-feira</dt>
+                <dd>Das 9h às 17h.</dd>
+
+                <dt>Sábado</dt>
+                <dd>Das 9h às 12h.</dd>
+
+                <dt>Domingo e feriados</dt>
+                <dd>Sem atendimento.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <p>
+                        <label for="contato-nome">Nome:</label>
+                        <input type="text" id="contato-nome" name="nome" autocomplete="name" required>
+                    </p>
+
+                    <p>
+                        <label for="contato-email">E-mail:</label>
+                        <input type="email" id="contato-email" name="email" autocomplete="email" required>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+
+                    <p>
+                        <label for="assunto">Assunto:</label>
+
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="informacao">Informação</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" maxlength="300" required></textarea>
+                    </p>
+
+                </fieldset>
+
+                <button type="submit">Enviar mensagem</button>
+                <button type="reset">Limpar formulário</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Rafaela Ribeiro Witzke </p>
+    </footer>
+
+</body>
+</html>
