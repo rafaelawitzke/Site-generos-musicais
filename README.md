@@ -46,7 +46,7 @@ Teste de teclado: preencher após realizar a verificação.
 
 ## Imagens
 
-As imagens utilizadas foram criadas para este projeto em formato SVG.
+As imagens utilizadas foram criadas para este projeto em formato png.
 
 Fonte: autoria própria.
 Licença: criação própria para fins escolares.
